@@ -335,20 +335,20 @@ export default class PreviewPage extends React.Component {
           <link rel="stylesheet" href="/_static/page.css" />
           <link rel="stylesheet" href="/_static/markdown.css" />
           <link rel="stylesheet" href="/_static/highlight.css" />
-          <link rel="stylesheet" href="/_static/katex@0.15.3.css" />
-          <link rel="stylesheet" href="/_static/sequence-diagram-min.css" />
-          <script type="text/javascript" src="/_static/underscore-min.js"></script>
-          <script type="text/javascript" src="/_static/webfont.js"></script>
-          <script type="text/javascript" src="/_static/snap.svg.min.js"></script>
-          <script type="text/javascript" src="/_static/tweenlite.min.js"></script>
-          <script type="text/javascript" src="/_static/mermaid.min.js"></script>
-          <script type="text/javascript" src="/_static/sequence-diagram-min.js"></script>
-          <script type="text/javascript" src="/_static/katex@0.15.3.js"></script>
-          <script type="text/javascript" src="/_static/mhchem.min.js"></script>
-          <script type="text/javascript" src="/_static/raphael@2.3.0.min.js"></script>
-          <script type="text/javascript" src="/_static/flowchart@1.13.0.min.js"></script>
-          <script type="text/javascript" src="/_static/viz.js"></script>
-          <script type="text/javascript" src="/_static/full.render.js"></script>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" />
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/js-sequence-diagram/dist/sequence-diagram-min.min.css" />
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/underscore/underscore-min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/webfontloader/webfontloader.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/snapsvg/dist/snap.svg-min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gsap/umd/TweenLite.min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-sequence-diagram/dist/sequence-diagram.min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/mhchem.min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/raphael/raphael.min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/flowchart.js/release/flowchart.min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/viz.js/viz.min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/viz.js/full.render.min.js"></script>
         </Head>
         <main data-theme={this.state.theme}>
           <div id="page-ctn" contentEditable={contentEditable ? 'true' : 'false'}>
